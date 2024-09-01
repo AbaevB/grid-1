@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  width: 1170px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px 5px;
+}
+
+.grid__item {
+  min-height: 100px;
+  background-color: aqua;
+  /*border: 1px solid #fff;*/
+}
